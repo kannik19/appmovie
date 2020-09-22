@@ -35,10 +35,14 @@
 .list-item__title{
     background-color: white;
     text-align: left;
+    font-size: 14pt;
+    
 }
 
 .list-item__subtitle{
     text-align: left;
+    padding: 0 40 0 0;
+    font-size: 12pt;
 }
 
 .searchinput{
@@ -54,9 +58,8 @@
     
 }
 
-
 .movietitle{
-    padding: 0 0 40 0;
+    padding: 0 0 0 0;
 }
 
 .details{
@@ -66,7 +69,8 @@
 } 
 
 .movietitle{
-    background:whitesmoke;
+    background-color:white;
+    
 }
 
 .setimages{
@@ -82,5 +86,6 @@
 }
 
 .moviedetails{
-    color: black;
+    color: #1f1f21;
 }
+
