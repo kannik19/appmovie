@@ -1,0 +1,86 @@
+:checked+.tabbar__button{
+    color: red;
+}
+
+.toolbar{
+    background-color: #1d1d1f;
+    color: whitesmoke;
+}
+
+.titlename{ 
+    font-size: 15pt; 
+    color: whitesmoke;
+}
+
+.tabbar{
+    background-color:#1d1d1f;
+}
+
+.images{
+    height: 570px;
+    width: auto;
+}
+
+.box{
+    font-size: 20pt;
+    color:black;
+}
+
+
+.list-item__thumbnail{ 
+    width: auto;margin-bottom: 20px;
+    padding: 0 0 40 0;
+}
+
+.list-item__title{
+    background-color: white;
+    text-align: left;
+}
+
+.list-item__subtitle{
+    text-align: left;
+}
+
+.searchinput{
+    width: 350px;
+    font-size: 25pt;
+    color: white;
+}
+  
+.searchimages{
+    height: 150px;
+    width: 100px;
+    border-radius: 5%;
+    
+}
+
+
+.movietitle{
+    padding: 0 0 40 0;
+}
+
+.details{
+    
+    text-align: center; 
+ 
+} 
+
+.movietitle{
+    background:whitesmoke;
+}
+
+.setimages{
+    border-radius: 5%; 
+    height: 350px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.list-header{
+    text-align: left;
+    font-size: 12pt;
+}
+
+.moviedetails{
+    color: black;
+}

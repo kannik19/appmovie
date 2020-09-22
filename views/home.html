@@ -1,3 +1,23 @@
 <ons-page id="home">
-    <p style="text-align: center;">This is the Home Page</p>
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+
+    <template id="page1.html">
+        <ons-page id="page1">
+            <ons-carousel direction="horizental" swipeable auto-scroll-ratio overscrollable id="carousel "
+                class="center">
+                <ons-carousel-item>
+                    <img class="images" src="/images/startrek.jpg" alt="" id="startrek">
+                </ons-carousel-item>
+                <ons-carousel-item>
+                    <img class="images" src="/images/johnwick.jpg" alt="">
+                </ons-carousel-item>
+                <ons-carousel-item>
+                    <img class="images" src="/images/bpt.jpg" alt="">
+                </ons-carousel-item>
+            </ons-carousel>
+            <div class="box">Top 10 of August</div>
+
+        </ons-page>
+    </template>
+
 </ons-page>

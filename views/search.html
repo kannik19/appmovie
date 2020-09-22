@@ -1,3 +1,44 @@
 <ons-page id="search">
-    <p style="text-align: center;">This is the Search Page</p>
+    <div class="search" style="text-align: center; margin-top: 10px; margin-bottom: 5px;">
+        <ons-search-input class="searchinput" placeholder="Search"
+            onchange="ons.notification.alert('Searched for: ' + this.value)">
+        </ons-search-input>
+    </div>
+    <ons-list>
+        <ons-list-item>
+            <div class="left">
+                <img class="searchimages" src="/images/startrek.jpg">
+            </div>
+            <div class="movietitle">
+                <span>Star Trek Beyond</span>
+                <span class="list-item__subtitle">Kirk, Spock and the crew must find a way off a hostile planet and stop
+                    Krall before he destroys the Federation.</span>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list>
+        <ons-list-item>
+            <div class="left">
+                <img class="searchimages" src="/images/johnwick.jpg">
+            </div>
+            <div class="movietitle">
+                <span class="list-item__title">John Wick</span>
+                <span class="list-item__subtitle">An ex-hit-man comes out of retirement to track down the gangsters that
+                    killed his dog and took everything from him.</span>
+            </div>
+        </ons-list-item>
+    </ons-list>
+    <ons-list>
+        <ons-list-item>
+            <div class="left">
+                <img class="searchimages" src="/images/bpt.jpg">
+            </div>
+            <div class="movietitle">
+                <span class="list-item__title">Black Panther</span>
+                <span class="list-item__subtitle">T'Challa, heir to the hidden but advanced kingdom of Wakanda, must
+                    step forward to lead his people into a new future and must confront a challenger from his country's
+                    past.</span>
+            </div>
+        </ons-list-item>
+    </ons-list>
 </ons-page>
